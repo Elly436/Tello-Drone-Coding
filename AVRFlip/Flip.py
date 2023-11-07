@@ -1,5 +1,9 @@
 from tello import *
 
+
+def inchesToCm(inches):
+    return inches*2.54
+
 def set_speed(speed):
     """sets the speed of the drone 10cm/s-100cm/s"""
     assert (speed >= 10), "Speed is less than 10cm/s (valid range is 10cm/s-100cm/s)."
@@ -30,8 +34,10 @@ power = get_battery()
 print("Power Level: ", power, "%")
 
 takeoff()
-set_speed(100)
-forward(100)
-flip_left()
-
+set_speed(100) 
+up(20)
+backward(inchesToCm(130))
+flip_backward()
+#clockwise(180)
+forward(inchesToCm(145))
 land()
