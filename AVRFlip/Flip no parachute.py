@@ -1,6 +1,5 @@
 from tello import *
 
-
 def inchesToCm(inches):
     return inches*2.54
 
@@ -28,6 +27,7 @@ def curve(xi, yi, zi, xf, yf, zf, speed):
     assert (speed <= 100), "Speed is more than 100cm/s (valid range is 10cm/s-100cm/s)."
     response = send_and_wait('curve %d %d %d %d %d %d %d' % (xi, yi, zi, xf, yf, zf, speed))
 
+
 start()
 
 power = get_battery()
@@ -35,10 +35,12 @@ print("Power Level: ", power, "%")
 
 takeoff()
 set_speed(100)
-up(100)
-forward(inchesToCm(130))
+up(120)
+forward(inchesToCm(115))
 right(inchesToCm(10))
 flip_forward()
 #clockwise(180)
 backward(inchesToCm(130))
+#left(inchesToCm(10))
+
 land()

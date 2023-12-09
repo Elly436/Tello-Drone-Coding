@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7af8e9bc-5926-4b54-a762-71f4da9cc87f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AVRFlip/Flip no parachute.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AVRFlip/Flip no parachute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVRFlip/Flip.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AVRFlip/Flip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AVRFlip/Tello-master/tests/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AVRFlip/Tello-master/tests/video.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2YHcF21HdYw9pYC25ivMovYpBr9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7af8e9bc-5926-4b54-a762-71f4da9cc87f" name="Changes" comment="" />
+      <created>1700185838244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700185838244</updated>
+    </task>
+    <servers />
+  </component>
+</project>
